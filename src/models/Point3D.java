@@ -39,7 +39,7 @@ public class Point3D extends Point2D {
     public void setXYZ(float z) {
         array[0] = this.point2D.getXY()[0];
         array[1] = this.point2D.getXY()[1];
-        array[2] = z;
+        array[2] = this.getZ();
     }
 
     public float[] getXYZ() {
