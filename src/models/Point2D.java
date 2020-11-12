@@ -38,8 +38,12 @@ public class Point2D {
         this.array[1] = getY();
     }
 
-    public float[] getXY(){
+    public float[] getArray(){
         return array;
+    }
+
+    public float[] getXY(){
+        return getArray();
     }
 
     @Override

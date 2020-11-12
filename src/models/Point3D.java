@@ -7,6 +7,11 @@ public class Point3D extends Point2D {
     private float[] array = new float[3];
     private Point2D point2D;
 
+
+    public float[] getArray(){
+        return array;
+    }
+
     public Point2D getPoint2D() {
         return point2D;
     }
@@ -38,7 +43,7 @@ public class Point3D extends Point2D {
     }
 
     public float[] getXYZ() {
-        return array;
+        return getArray();
     }
 
     @Override
